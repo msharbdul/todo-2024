@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-style: normal;
+}
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image:url(./image/wooden-pier-free-image.webp);
+    mix-blend-mode: screen;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+header{
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+.text-contnr{
+    width:fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.text-contnr h1{
+    width: 100%;
+    height: auto;
+    color: #f8f8f8;
+    font-style: italic;
+    font-weight: 500;
+    padding: 1rem;
+}
+form{
+    width: 80%;
+    height: auto;
+    
+}
+.weather-app{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 4rem 4rem 4rem;
+    column-gap: 0.5rem;
+}
+input{
+    width: 40%;
+    height: auto;
+    padding: 1rem;
+    border-radius: 0.8rem;
+    border: none;
+    outline: none;
+    border: 1px solid green;
+}
+input::placeholder{
+    font-size: larger;
+    font-style: italic;
+    color: lightgray;
+
+}
+button{
+    width: 20%;
+    height: auto;
+    background-color: black;
+    color: white;
+    padding: 1rem 0.7rem 1rem 0.7rem;
+    border: none;
+    outline: none;
+    border: 1px solid red;
+    border-radius: 0.8rem;
+    cursor: pointer;
+}
+.weather-display{
+    width: 30%;
+    text-align: center;
+    color: #f8f8f8;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+
+}
+.city-input-name h1{
+    width: 100%;
+    height: auto;
+    font-weight: 600;
+    letter-spacing: 0.5rem;
+}
+.Humidity-contnr{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 0.7rem;
+}
+.Humidity-contnr,p,h5{
+    font-size: large;
+    font-style: italic;
+    color: #f8f8f8;
+}
+.current-temp-contnr{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 0.7rem;
+}

@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-style: normal;
+}
+.main-container{
+    width: 40%;
+    height: auto;
+    background-color: #f6f6f6;
+    margin: 4rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.todo-container{
+    width: fit-content;
+    height: auto;
+    padding: 0.5rem;
+}
+.todo-container h1{
+    font-size: 1.2rem;
+}
+.todo-input-container{
+    width: 100%;
+    height: auto;
+}
+.form{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 1rem;
+}
+input{
+    padding: 1rem;
+    width: 100%;
+    border: 1px solid #e3e3e3;
+    border-radius: 0.5rem;
+}
+input::placeholder{
+    font-style: italic;
+    font-weight: 100;
+    color: #e8e8e8;
+}
+button{
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    border: none;
+    background-color: black;
+    outline: none;
+    border: 1px solid black;
+    cursor: pointer;
+    color: white;
+    border-radius: 0.5rem;
+}
+.todo-item-container{
+    width: 100%;
+    height: auto;
+    background-color:white;
+    margin-top: 2.5rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+.todo-item{
+    background-color: #f8f8f8;
+    height: auto;
+    width: 100%;
+    padding: 0.75rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #e8e8e8;
+    border-radius: 0.5rem;
+}
+.leftside{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    column-gap: 0.55rem;
+}
+.right-side{
+    width: fit-content;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    column-gap: 0.55rem;
+    justify-content: start;
+    align-items: center;
+}
+.fa-circle{
+    cursor: pointer;
+}
+.fa-circle-dot{
+    cursor: pointer;
+}
+.fa-pen{
+    cursor: pointer;
+}
+.fa-trash{
+    cursor: pointer;
+}
